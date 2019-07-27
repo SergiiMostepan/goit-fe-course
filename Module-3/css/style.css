@@ -1,0 +1,48 @@
+body {
+    font-family: "Playfair Display", "Arial", sans-serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+.img_p {
+    font-family: "Ubuntu", "Arial", sans-serif;
+    color: #b4ad9e;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+.header_p {
+    font-size: 30px;
+    line-height: 36px;
+}
+.page-header {
+    background-color: #ffffff;
+}
+.navigation {
+    font-size: 14px;
+    list-style: none;
+}
+.navigation a {
+color: #626262;
+font-weight: 400;
+text-transform: uppercase;
+text-decoration: none;
+line-height: 16px;
+}
+.navigation a:hover {
+    color: #03a9f4;
+}
+.visually-hidden:not(:focus):not(:active),
+input[type="checkout"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
