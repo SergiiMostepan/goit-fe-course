@@ -1,36 +1,97 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+/* body */
 body {
     font-family: "Playfair Display", "Arial", sans-serif;
     color: #626262;
     font-size: 14px;
     line-height: 24px;
 }
+/* header */
+.conteiner {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
 .img_p {
     font-family: "Ubuntu", "Arial", sans-serif;
     color: #b4ad9e;
     line-height: 17px;
     text-transform: uppercase;
+    margin-bottom: 32px;
 }
+
 .header_p {
     font-size: 30px;
     line-height: 36px;
+    margin-bottom: 36px;
 }
-.page-header {
-    background-color: #ffffff;
+p{
+    margin-bottom: 140px;
 }
+
+header {
+    height: 204px;
+}
+
 .navigation {
+    margin: 0;
+    padding: 0;
     font-size: 14px;
     list-style: none;
+    vertical-align: middle;
 }
+
+.hearer-nav {
+    padding: 77px 0 103px 0;
+}
+
 .navigation a {
-color: #626262;
-font-weight: 400;
-text-transform: uppercase;
-text-decoration: none;
-line-height: 16px;
+    color: #626262;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 24px;
 }
-.navigation a:hover {
+
+.navigation li {
+    text-align: justify;
+    display: inline-block;
+}
+
+.navigation li:first-child {
+    margin-left: 163px;
+}
+
+.navigation li:last-child {
+    margin-right: 163px;
+}
+
+.fi_li {
+    margin-right: 119px;
+}
+
+.se_li {
+    margin-right: 100px;
+}
+
+.th_li {
+    margin-right: 90px;
+}
+
+.navigation a:hover,
+.navigation a:focus {
     color: #03a9f4;
 }
+/* main */
 .visually-hidden:not(:focus):not(:active),
 input[type="checkout"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -45,4 +106,39 @@ input[type="radio"].visually-hidden {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+.features {
+    font-size: 0;
+    margin-bottom: 56px;
+}
+.blocks_l {
+    width: 420px;
+    margin-right: 60px;
+    padding: 0;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.blocks_r {
+    width: 420px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 14px;
+}
+/* button */
+.loadmore_button {
+    border: 0;
+    margin: 0;
+    padding: 20px 34px 21px 34px;
+   font-size: 20px;
+   line-height: 24px;
+   font-family: "Playfair Display", "Arial", sans-serif;
+   color: #626262;
+   cursor: pointer;
+   border: 2px solid #626262;
+   background-color: #ffffff;
+}
+.button_div {
+    margin: 0 358px;
 }
