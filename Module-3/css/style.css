@@ -111,20 +111,17 @@ input[type="radio"].visually-hidden {
     font-size: 0;
     margin-bottom: 56px;
 }
-.blocks_l {
-    width: 420px;
-    margin-right: 60px;
-    padding: 0;
-    display: inline-block;
-    font-size: 14px;
-}
 
-.blocks_r {
+.blocks {
     width: 420px;
     margin: 0;
     padding: 0;
     display: inline-block;
-    font-size: 14px;
+    font-size: 14px; 
+}
+
+.blocks:nth-child(2n){
+    margin-right: 60px; 
 }
 /* button */
 .loadmore_button {
