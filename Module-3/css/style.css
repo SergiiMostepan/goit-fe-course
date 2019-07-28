@@ -137,5 +137,6 @@ input[type="radio"].visually-hidden {
    background-color: #ffffff;
 }
 .button_div {
-    margin: 0 358px;
+    margin-left: 358px;
+    margin-bottom: 70px;
 }
