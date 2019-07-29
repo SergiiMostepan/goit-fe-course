@@ -38,9 +38,6 @@ body {
     margin-bottom: 36px;
 }
 
-/* article{
-    margin-bottom: 140px;
-} */
 
 header {
     height: 204px;
@@ -124,7 +121,7 @@ input[type="radio"].visually-hidden {
     padding: 0;
     display: inline-block;
     font-size: 14px;
-    margin-bottom: 140px;
+    margin-bottom: 137px;
 }
 
 .blocks:nth-child(2n) {
@@ -158,4 +155,7 @@ input[type="radio"].visually-hidden {
 .loadmore_button:focus {
     color: #03a9f4;
     border: 2px solid #03a9f4;
+}
+.main-text {
+    margin: 0 auto;
 }
