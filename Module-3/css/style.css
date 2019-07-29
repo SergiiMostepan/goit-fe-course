@@ -27,6 +27,7 @@ body {
     line-height: 17px;
     text-transform: uppercase;
     margin-bottom: 32px;
+    font-weight: 300;
 }
 
 .header_p {
@@ -34,9 +35,9 @@ body {
     line-height: 36px;
     margin-bottom: 36px;
 }
-p{
+/* article{
     margin-bottom: 140px;
-}
+} */
 
 header {
     height: 204px;
@@ -118,10 +119,14 @@ input[type="radio"].visually-hidden {
     padding: 0;
     display: inline-block;
     font-size: 14px; 
+    margin-bottom: 140px;
 }
 
 .blocks:nth-child(2n){
     margin-right: 60px; 
+}
+.blocks:nth-child(n+6){
+    margin-bottom: 0; 
 }
 /* button */
 .loadmore_button {
@@ -139,4 +144,9 @@ input[type="radio"].visually-hidden {
 .button_div {
     margin-left: 358px;
     margin-bottom: 70px;
+}
+.loadmore_button:hover,
+.loadmore_button:focus {
+    color: #03a9f4;
+    border: 2px solid #03a9f4;
 }
