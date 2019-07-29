@@ -7,6 +7,7 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
 /* body */
 body {
     font-family: "Playfair Display", "Arial", sans-serif;
@@ -14,6 +15,7 @@ body {
     font-size: 14px;
     line-height: 24px;
 }
+
 /* header */
 .conteiner {
     width: 900px;
@@ -35,6 +37,7 @@ body {
     line-height: 36px;
     margin-bottom: 36px;
 }
+
 /* article{
     margin-bottom: 140px;
 } */
@@ -92,6 +95,7 @@ header {
 .navigation a:focus {
     color: #03a9f4;
 }
+
 /* main */
 .visually-hidden:not(:focus):not(:active),
 input[type="checkout"].visually-hidden,
@@ -108,6 +112,7 @@ input[type="radio"].visually-hidden {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 .features {
     font-size: 0;
     margin-bottom: 56px;
@@ -118,33 +123,37 @@ input[type="radio"].visually-hidden {
     margin: 0;
     padding: 0;
     display: inline-block;
-    font-size: 14px; 
+    font-size: 14px;
     margin-bottom: 140px;
 }
 
-.blocks:nth-child(2n){
-    margin-right: 60px; 
+.blocks:nth-child(2n) {
+    margin-right: 60px;
 }
-.blocks:nth-child(n+6){
-    margin-bottom: 0; 
+
+.blocks:nth-child(n+6) {
+    margin-bottom: 0;
 }
+
 /* button */
 .loadmore_button {
     border: 0;
     margin: 0;
     padding: 20px 34px 21px 34px;
-   font-size: 20px;
-   line-height: 24px;
-   font-family: "Playfair Display", "Arial", sans-serif;
-   color: #626262;
-   cursor: pointer;
-   border: 2px solid #626262;
-   background-color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Playfair Display", "Arial", sans-serif;
+    color: #626262;
+    cursor: pointer;
+    border: 2px solid #626262;
+    background-color: #ffffff;
 }
+
 .button_div {
     margin-left: 358px;
     margin-bottom: 70px;
 }
+
 .loadmore_button:hover,
 .loadmore_button:focus {
     color: #03a9f4;
