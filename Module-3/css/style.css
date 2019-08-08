@@ -114,7 +114,9 @@ input[type="radio"].visually-hidden {
     font-size: 0;
     margin-bottom: 56px;
 }
-
+img {
+    display: block;
+}
 .blocks {
     width: 420px;
     margin: 0;
