@@ -261,4 +261,5 @@ button {
     font-weight: 300;
     text-transform: capitalize;
     border-radius: 3px;
+    cursor: pointer;
 }
