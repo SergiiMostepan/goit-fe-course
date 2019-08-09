@@ -262,7 +262,3 @@ button {
     text-transform: capitalize;
     border-radius: 3px;
 }
-
-button:hover {
-    background-color: #4ec6ab;
-}
