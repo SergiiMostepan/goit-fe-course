@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkout"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.page-header {
+    min-height: 80px;
+}
+
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.site-logo {
+    display: flex;
+    margin: 0;
+    padding: 26px 0;
+    text-decoration: none;
+}
+
+.page-logo {
+    margin: 0;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #95e1d3;
+}
+
+.site-navigation {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 490px;
+    margin: 0;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.site-navigation a {
+    text-decoration: none;
+    color: #95e1d3;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+
+.site-navigation a:hover {
+    border-bottom: 3px solid #f38181;
+    color: #f38181;
+}
+
+.header-question {
+    font-family: 'Kaushan Script', 'Arial', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    margin: 90px 0 22px 0;
+    color: #333333;
+}
+
+.section-header {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #333333;
+}
+
+.section-header::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 42px auto 0;
+
+}
+
+.site-services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.site-services-item {
+    max-width: 360px;  
+}
