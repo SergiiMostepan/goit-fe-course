@@ -82,8 +82,6 @@ input[type="radio"].visually-hidden {
     font-family: 'Kaushan Script', 'Arial', sans-serif;
     font-size: 24px;
     line-height: 24px;
-    /* display: flex;
-    justify-content: center; */
     text-align: center;
     margin: 90px 0 22px 0;
     color: #333333;
@@ -97,6 +95,7 @@ input[type="radio"].visually-hidden {
     text-align: center;
     margin: 0;
     color: #333333;
+    margin-bottom: 65px;
 }
 
 .section-header::after {
@@ -113,8 +112,159 @@ input[type="radio"].visually-hidden {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 0;
 }
 
 .site-services-item {
-    max-width: 360px;  
+    min-width: 370px;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-position: 30px 0px;
+    min-height: 80px;
+    position: relative;
+    margin-bottom: 96px;
+}
+
+/* .site-services-item:nth-child(n+3) {
+    margin-bottom: 96px;
+} */
+
+.item-first {
+    background-image: url(../img/ALARM.png);
+}
+
+.item-second {
+    background-image: url(../img/LINE_GRAPH.png);
+}
+
+.item-third {
+    background-image: url(../img/_OK.png);
+}
+
+.item-fourth {
+    background-image: url(../img/BOOK_2.png);
+}
+
+.item-fifth {
+    background-image: url(../img/HOME.png);
+}
+
+.item-sixth {
+    background-image: url(../img/IMAGE.png);
+}
+
+.site-services-item-header {
+    position: absolute;
+    left: 92px;
+    margin: 0;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.site-services-item-text {
+    position: absolute;
+    left: 92px;
+    top: 35px;
+    margin: 0;
+    min-width: 270px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 400;
+    color: #999999;
+    font-size: 15px;
+}
+
+.header-question-second {
+    margin: 0;
+    margin-bottom: 26px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tm-text {
+    text-align: center;
+    padding: 0px 130px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 400;
+    color: #999999;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 90px;
+}
+.team-list  {
+    min-width: 380px;
+}
+
+.team-list-fig {
+    margin: 0;
+}
+
+.team-list-name {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 29px auto 14px;
+}
+img {
+    display: block;
+}
+.team-list-prof {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 400;
+    color: #999999;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    line-height: 24px;
+    margin: 0;
+}
+
+.team-list-fig-image {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.team-list-fig-icon a {
+    width: 56px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fce38a;
+    font-size: 0
+}
+.team-list-fig-fb a {
+    background-image: url(../img/facebook.png);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 78px;
+}
+.team-list-fig-tw a {
+    background-image: url(../img/twitter.png);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 135px;
+}
+.team-list-fig-p a {
+    background-image: url(../img/pinterest.png);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 192px;
+}
+.team-list-fig-inst a {
+    background-image: url(../img/instagram.png);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 249px;
 }
