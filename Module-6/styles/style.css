@@ -359,8 +359,14 @@ img {
     width: 230px;
     height: 40px;
     border: #e5e5e5 solid 1px;
-    font-size: 14px;
+    
     padding-left: 13px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 400;
+    color: #cccccc;
+    font-size: 15px;
+    line-height: 24px;
+    font-style: italic;
 }
 
 .button-input {
