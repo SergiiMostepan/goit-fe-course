@@ -8,3 +8,5 @@ home work prodjects, ect.
 [Module-5_Page](https://sergiimostepan.github.io/goit-fe-course/Module-5)
 
 [Module-6_Page](https://sergiimostepan.github.io/goit-fe-course/Module-6)
+
+[Module-7_Page](https://sergiimostepan.github.io/goit-fe-course/Module-7)
