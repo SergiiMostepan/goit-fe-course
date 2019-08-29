@@ -265,6 +265,11 @@ input[type="radio"].visually-hidden {
     border-radius: 2px;
     margin-right: 30px;
     padding-left: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    letter-spacing: -0.35px;
 }
 
 .input-item::placeholder {
@@ -286,6 +291,11 @@ input[type="radio"].visually-hidden {
     border: 1px solid #cccccc;
     border-radius: 2px;
     padding: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    letter-spacing: -0.35px;
 }
 
 .textarea-item::placeholder {
@@ -297,11 +307,19 @@ input[type="radio"].visually-hidden {
     letter-spacing: -0.35px;
 }
 
-.input-item:focus:valid {
+.input-item-valid:focus:valid {
     outline: 2px solid green;
 }
 
-.input-item:focus:invalid {
+.input-item-valid:focus:invalid {
+    outline: 2px solid red;
+}
+
+.textarea-item:focus:valid {
+    outline: 2px solid green;
+}
+
+.textarea-item:focus:invalid {
     outline: 2px solid red;
 }
 
