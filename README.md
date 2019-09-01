@@ -10,3 +10,5 @@ home work prodjects, ect.
 [Module-6_Page](https://sergiimostepan.github.io/goit-fe-course/Module-6)
 
 [Module-7_Page](https://sergiimostepan.github.io/goit-fe-course/Module-7)
+
+[Module-8_Page](https://sergiimostepan.github.io/goit-fe-course/Module-8)
