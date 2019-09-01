@@ -40,7 +40,7 @@ input[type="radio"].visually-hidden {
 
 .page-nav {
     padding-top: 20px;
-    margin-bottom: 113px;
+    margin: 0 auto 113px;
 }
 
 .site-navigation {
@@ -144,7 +144,7 @@ input[type="radio"].visually-hidden {
     font-size: 22px;
     font-weight: 700;
     color: #333333;
-    margin: 0;
+    margin: 0 0 13px;
 }
 
 .features-list-item-img {
@@ -207,13 +207,15 @@ input[type="radio"].visually-hidden {
 
 .features-button {
     width: 280px;
-height: 40px;
-border: 2px solid #ff4e50;
-background-color: #ffffff;
-border-radius:  100px 100px 100px 100px;
-cursor: pointer;
-color: #ff4e50;
-font-family: 'Monserat', 'Arial', sans-serif;
-font-size: 14px;
-font-weight: 700;
+    height: 40px;
+    border: 2px solid #ff4e50;
+    background-color: #ffffff;
+    border-radius: 100px 100px 100px 100px;
+    cursor: pointer;
+    color: #ff4e50;
+    font-family: 'Monserat', 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 auto;
+    display: block;
 }
