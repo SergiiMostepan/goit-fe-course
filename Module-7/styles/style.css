@@ -62,7 +62,6 @@ html {
 input[type="checkout"].visually-hidden,
 input[type="radio"].visually-hidden {
     position: absolute;
-
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -337,4 +336,5 @@ input[type="radio"].visually-hidden {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
+    cursor: pointer;
 }
