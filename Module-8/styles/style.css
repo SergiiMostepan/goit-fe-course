@@ -226,3 +226,66 @@ input[type="radio"].visually-hidden {
     margin: 0 auto;
     display: block;
 }
+
+@media (min-width: 768px) {
+
+    .page-header{
+        height: 700px;
+        background-size: auto 700px;
+    }
+
+    .page-header-nav {
+        flex-direction: row;
+        width: 670px;
+        margin: 0;
+        padding: 0;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .page-logo {
+        margin: 38px 0 0 0;
+        justify-items: center;
+        padding: 8px 0; 
+    }
+
+    .page-nav{
+margin: 38px 0 138px 0;
+padding: 0;
+
+    }
+
+    .site-navigation-item a{
+margin: 0;
+padding: 0;
+padding: 8px 0; 
+    }
+
+    .page-header-bigtext{
+        font-size: 52px;
+        width: 477px;
+        margin: 0 auto 33px;
+    }
+
+    .page-header-litletext {
+        font-size: 24px;
+        width: 398px;
+        margin: 0 auto 32px;
+    }
+
+    .features-header{
+        margin: 0 0 30px;
+    }
+
+    .features-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 476px;
+        margin: 0 auto 39px;
+    }
+
+    .features-list-item-text {
+        margin: 0;
+    }
+}
