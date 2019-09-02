@@ -23,10 +23,6 @@ input[type="radio"].visually-hidden {
     overflow: hidden;
 }
 
-.container {
-    width: 320px;
-    padding: 0;
-}
 
 .page-header {
     background-image: url(../img/people.png);
@@ -41,7 +37,9 @@ input[type="radio"].visually-hidden {
 .page-header-nav {
     display: flex;
     flex-direction: column-reverse;
+    margin: 0 auto;
 }
+
 .page-nav {
     padding-top: 20px;
     margin: 0 auto 113px;
@@ -72,8 +70,8 @@ input[type="radio"].visually-hidden {
     font-size: 14px;
     font-weight: 700;
     color: #ffffff;
-    padding: 8px 0;  
-    }
+    padding: 8px 0;
+}
 
 .site-navigation-item:hover {
     border: 2px solid #ffffff;
@@ -229,7 +227,7 @@ input[type="radio"].visually-hidden {
 
 @media (min-width: 768px) {
 
-    .page-header{
+    .page-header {
         height: 700px;
         background-size: auto 700px;
     }
@@ -246,22 +244,26 @@ input[type="radio"].visually-hidden {
     .page-logo {
         margin: 38px 0 0 0;
         justify-items: center;
-        padding: 8px 0; 
+        padding: 8px 0;
     }
 
-    .page-nav{
-margin: 38px 0 138px 0;
-padding: 0;
+    .page-nav {
+        margin: 38px 0 138px 0;
+        padding: 0;
 
     }
 
-    .site-navigation-item a{
-margin: 0;
-padding: 0;
-padding: 8px 0; 
+    .site-navigation-item a {
+        margin: 0;
+        padding: 0;
+        padding: 8px 0;
     }
 
-    .page-header-bigtext{
+    .page-header-button a {
+        width: 226px;
+    }
+
+    .page-header-bigtext {
         font-size: 52px;
         width: 477px;
         margin: 0 auto 33px;
@@ -273,7 +275,7 @@ padding: 8px 0;
         margin: 0 auto 32px;
     }
 
-    .features-header{
+    .features-header {
         margin: 0 0 30px;
     }
 
@@ -288,4 +290,39 @@ padding: 8px 0;
     .features-list-item-text {
         margin: 0;
     }
+
+    .features-button {
+        width: 193px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .page-header {
+        margin-bottom: 68px;
+        background-size: cover;
+    }
+
+
+    .page-header-nav {
+        width: 942px;
+    }
+
+    /* .page-header-button a {
+        width: 226px;
+    } */
+
+    .container {
+        padding: 0;
+    }
+
+
+    .features-list {
+        width: 942px;
+    }
+
+    .features-button {
+        margin-bottom: 73px;
+    }
+
 }
