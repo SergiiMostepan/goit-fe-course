@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkout"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -10,17 +14,17 @@ input[type="radio"].visually-hidden {
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hidden;
+    overflow: hidden
 }
 
 .page-header {
     background-image: url(../img/people.png);
-    height: 540px;
+    height: 33.75rem;
     margin: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.75);
-    background-size: auto 540px;
+    background-size: cover;
 }
 
 .page-logo {
@@ -33,11 +37,6 @@ input[type="radio"].visually-hidden {
     letter-spacing: 1px;
     margin: 0;
 }
-
-.container {
-    margin: 0 auto;
-}
-
 
 .site-navigation {
     list-style: none;
@@ -59,7 +58,7 @@ input[type="radio"].visually-hidden {
     font-size: 14px;
     font-weight: 700;
     color: #ffffff;
-    padding: 9px 0;
+    padding: 0.56rem 0;
     text-decoration: none;
     text-align: center;
 }
@@ -83,7 +82,7 @@ input[type="radio"].visually-hidden {
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 0 0 14px 0;
+    margin: 0;
 }
 
 .page-header-litletext {
@@ -92,24 +91,26 @@ input[type="radio"].visually-hidden {
     font-family: 'Roboto', 'Arial', sans-serif;
     font-size: 18px;
     font-weight: 300;
-    margin: 0 auto 17px;
+    margin: 0;
 }
 
 .page-header-button {
     text-align: center;
     margin: 0 auto;
-    display: inline-block;
+    display: block;
     background-color: #ff4e50;
     width: 280px;
     height: 40px;
     border-radius: 100px 100px 100px 100px;
-    padding: 11px;
+    padding: 0.67rem;
     text-decoration: none;
     color: #ffffff;
     font-family: 'Monserat', 'Arial', sans-serif;
     font-size: 14px;
     font-weight: 700;
 }
+
+
 
 .features-header {
     text-align: center;
@@ -120,20 +121,20 @@ input[type="radio"].visually-hidden {
 }
 
 .features-list-item-img {
-    margin: 0 auto 19px;
-    width: 121px;
-    height: 120px;
+    margin: 0 auto 1.19rem;
+    width: 7.56rem;
+    height: 7.5rem;
     position: relative;
 }
 
 .features-list-item-img-icon {
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     border: 4px solid #ffffff;
     border-radius: 50%;
     position: absolute;
-    right: -4px;
-    bottom: -4px;
+    right: -0.25rem;
+    bottom: -0.25rem;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -164,7 +165,7 @@ input[type="radio"].visually-hidden {
     font-size: 14px;
     font-weight: 700;
     text-align: center;
-    margin: 0 0 13px;
+    margin: 0 0 0.81rem;
 }
 
 .features-list-item-text {
@@ -176,7 +177,7 @@ input[type="radio"].visually-hidden {
 }
 
 .features-button {
-    height: 40px;
+    height: 2.5rem;
     border: 2px solid #ff4e50;
     background-color: #ffffff;
     border-radius: 100px 100px 100px 100px;
@@ -192,31 +193,36 @@ input[type="radio"].visually-hidden {
 
 @media (min-width: 320px) and (max-width: 767px) {
 
-    .site-navigation {
-        margin: 20px auto 113px;
+    .page-logo {
+        margin-bottom: 2.06rem;
     }
 
-    .logo-button {
-        margin-bottom: 33px;
-        flex-direction: column-reverse;
+    .site-navigation {
+        margin: 1.5rem auto 7.06rem;
     }
 
     .features-header {
-        margin: 67px auto 13px;
+        margin: 4.19rem auto 0.81rem;
+    }
+
+    .page-header-bigtext {
+        margin-bottom: 0.88rem;
     }
 
     .page-header-litletext {
-        width: 217px;
+        max-width: 13.56rem;
+        margin: 0 auto 1.06rem;
     }
 
     .features-list-item-text {
-        max-width: 232px;
-        margin: 0 auto 28px;
+        padding: 0 2.38rem;
+        margin: 0 auto 1.06rem;
+        text-align: center;
     }
 
     .features-button {
-        width: 280px;
-        margin-bottom: 57px;
+        width: 17.5rem;
+        margin-bottom: 3.56rem;
     }
 
 }
@@ -225,90 +231,57 @@ input[type="radio"].visually-hidden {
 
     .page-logo {
         padding: 9px 0;
+        margin-top: 2.38rem;
+        margin-bottom: 8.8rem;
+    }
+
+    .site-navigation {
+        margin-top: 2.38rem;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 2.25rem;
     }
 
     .logo-button {
         justify-content: space-between;
-        padding-top: 38px;
     }
 
-    .site-navigation {
-        margin: 0;
-        display: flex;
-        justify-content: flex-end;
-    }
 
     .page-header {
-        height: 700px;
-        background-size: auto 700px;
+        height: 43.75rem;
     }
 
     .page-header-button {
-        display: block;
-        width: 226px;
-        margin: 0 auto;
+        width: 14.13rem;
     }
 
-    .row-page-header-bigtext {
-        justify-content: center;
-        padding-top: 142px;
-    }
 
     .page-header-bigtext {
         font-size: 52px;
         margin: 0 0 28px 0;
     }
 
-    .col-page-header-bigtext {
-        padding: 0;
-    }
-
-    .row-page-header-litletext {
-        justify-content: center;
-        margin-bottom: 32px;
-    }
-
-    .page-header-litletext {
-        margin: 0;
-    }
 
     .page-header-litletext {
         font-size: 24px;
-    }
-
-    .col-page-header-button {
-        padding: 0;
-    }
-
-    .row-page-header-button {
-        justify-content: center;
-    }
-
-    .row-features-header {
-        justify-content: center;
+        margin-bottom: 2rem;
     }
 
     .features-header {
-        margin-top: 70px;
-        margin-bottom: 30px;
+        margin-top: 4.38rem;
+        margin-bottom: 1.88rem;
+    }
+    .features-list-item {
+        margin-bottom: 2.38rem;
     }
 
-    .row-features {
-        justify-content: center;
-    }
-
-    .col-features-item {
-        min-width: 236px;
-        margin-bottom: 57px;
-    }
-
-    .features-list-item-text {
-        margin: 0;
+    .features-list-item:nth-last-of-type(even) {
+        margin-bottom: 3.56rem;
     }
 
     .features-button {
-        width: 193px;
-        margin-bottom: 40px;
+        width: 12.06rem;
+        margin-bottom: 2.5rem;
     }
 
 }
