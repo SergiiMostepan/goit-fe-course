@@ -23,7 +23,7 @@ input[type="radio"].visually-hidden {
     margin: 0;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.8);
     background-size: cover;
 }
 
@@ -284,4 +284,11 @@ input[type="radio"].visually-hidden {
         margin-bottom: 2.5rem;
     }
 
+}
+
+@media (min-width: 768px) {
+
+    .features-button {
+        margin-bottom: 7.63rem;
+    }
 }
