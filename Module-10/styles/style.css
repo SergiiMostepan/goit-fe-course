@@ -95,7 +95,7 @@ input[type="radio"].visually-hidden {
 }
 
 
-.site-navigation__link:hover {
+.site-navigation__link--hover:hover {
     border-bottom: 3px solid #fce38a;
 }
 
