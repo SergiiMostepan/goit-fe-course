@@ -113,7 +113,11 @@ input[type="radio"].visually-hidden {
     margin: 0 0 20px;
 }
 
-.title {
+.header-title {
+    width: 840px;
+    margin: 0 auto;
+}
+.header-title__text {
     color: #ffffff;
     font-family: 'Montserrat', 'Arial', sans-serif;
     font-size: 150px;
@@ -121,7 +125,6 @@ input[type="radio"].visually-hidden {
     line-height: 140px;
     text-transform: uppercase;
     text-align: center;
-    padding: 0 300px;
     margin: 0 0 109px;
 }
 
