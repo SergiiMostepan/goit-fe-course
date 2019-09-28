@@ -1,7 +1,7 @@
 .page-nav {
   display: flex;
   justify-content: space-between;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: $main-font-stack;
   margin-bottom: 142px;
 }
 
@@ -16,20 +16,19 @@
 }
 
 .site-navigation__link {
+  @include font-settings (14px, 400);
   text-decoration: none;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 400;
+  color: $primary-white-color;
   padding: 10px 0;
-  fill: #ffffff;
+  fill: $primary-white-color;
 
   &:hover {
-    color: #fce38a;
-    fill: #fce38a;
+    color: $hover-color;
+    fill: $hover-color;
   }
 }
 
 
 .site-navigation__link--hover:hover {
-  border-bottom: 3px solid #fce38a;
+  border-bottom: 3px solid $hover-color;
 }

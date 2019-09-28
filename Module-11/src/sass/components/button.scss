@@ -4,13 +4,12 @@
 }
 
 .header-button-style {
+  @include font-settings (14px, 700);
   width: 160px;
   height: 40px;
-  border: 3px solid #ffffff;
-  color: #ffffff;
-  font-family: 'Montserrat', 'Arial', sans-serif;
-  font-size: 14px;
-  font-weight: 700;
+  border: 3px solid $primary-white-color;
+  color: $primary-white-color;
+  font-family: $main-font-stack;
   text-transform: uppercase;
   background-color: Transparent;
   background-repeat: no-repeat;

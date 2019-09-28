@@ -10,9 +10,9 @@
 .tm__text {
   text-align: center;
   padding: 0px 130px;
-  font-family: 'Roboto', 'Arial', sans-serif;
+  font-family: $other-font-stack;
   font-weight: 400;
-  color: #999999;
+  color: $primary-dark-color;
   font-size: 15px;
   line-height: 24px;
   margin-bottom: 90px;
@@ -27,9 +27,9 @@
 }
 
 .team-list__name {
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: $main-font-stack;
   font-weight: 400;
-  color: #333333;
+  color: $secondary-dark-color;
   font-size: 14px;
   text-transform: uppercase;
   text-align: center;
@@ -41,9 +41,9 @@ img {
 }
 
 .team-list__prof {
-  font-family: 'Roboto', 'Arial', sans-serif;
+  font-family: $other-font-stack;
   font-weight: 400;
-  color: #999999;
+  color: $primary-dark-color;
   font-size: 15px;
   text-align: center;
   font-style: italic;
@@ -57,11 +57,7 @@ img {
   padding: 0;
   width: 380px;
   height: 470px;
-  -webkit-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
   transform: translate(0, 0);
-  -webkit-transition: 0.2s linear;
-  -o-transition: 0.2s linear;
   transition: 0.2s linear;
 
   &:hover .team-list-fig__icon {
@@ -84,7 +80,7 @@ img {
 
   &::before {
     z-index: -1;
-    background-color: #95e1d3;
+    background-color: $primary-icon-color;
     transform: translate(0, 0);
     transition: 0.2s linear;
   }
@@ -111,7 +107,7 @@ img {
   height: 56px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #fce38a;
+  background-color: $hover-color;
   font-size: 0;
   border-right: 1px solid #f38181;
   cursor: pointer;

@@ -5,15 +5,14 @@
   align-items: center;
   justify-content: space-between;
   min-height: 60px;
-  border-top: #e5e5e5 solid 1px;
+  border-top: $border-color solid 1px;
 }
 
 .footer-text {
+  @include font-settings (14px, 400);
   margin: 0;
-  color: #333333;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 400;
+  color: $secondary-dark-color;
+  font-family: $main-font-stack;
 }
 
 .footer-text__link {
@@ -30,10 +29,10 @@
 .input-email {
   width: 230px;
   height: 40px;
-  border: #e5e5e5 solid 1px;
+  border: $border-color solid 1px;
 
   padding-left: 13px;
-  font-family: 'Roboto', 'Arial', sans-serif;
+  font-family: $other-font-stack;
   font-weight: 400;
   color: #cccccc;
   font-size: 15px;
@@ -42,13 +41,12 @@
 }
 
 .button-input {
-  color: #ffffff;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 700;
+  @include font-settings (14px, 700);
+  color: $primary-white-color;
+  font-family: $main-font-stack;
   border: 0;
   width: 150px;
   height: 40px;
-  background-color: #95e1d3;
+  background-color: $primary-icon-color;
   cursor: pointer;
 }

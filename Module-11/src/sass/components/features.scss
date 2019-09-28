@@ -22,7 +22,7 @@
 
 .site-services-item__icon {
   position: absolute;
-  fill: #95e1d3;
+  fill: $primary-icon-color;
 }
 
 
@@ -30,9 +30,9 @@
   position: absolute;
   left: 62px;
   margin: 0;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-family: $main-font-stack;
   font-weight: 400;
-  color: #333333;
+  color: $secondary-dark-color;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -43,8 +43,8 @@
   top: 35px;
   margin: 0;
   min-width: 280px;
-  font-family: 'Roboto', 'Arial', sans-serif;
+  font-family: $other-font-stack;
   font-weight: 400;
-  color: #999999;
+  color: $primary-dark-color;
   font-size: 15px;
 }

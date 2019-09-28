@@ -1,5 +1,5 @@
 .sub__title {
-  color: #ffffff;
+  color: $primary-white-color;
   font-family: 'Kaushan Script', 'Arial', sans-serif;
   font-size: 72px;
   font-weight: 400;
@@ -13,8 +13,8 @@
 }
 
 .header-title__text {
-  color: #ffffff;
-  font-family: 'Montserrat', 'Arial', sans-serif;
+  color: $primary-white-color;
+  font-family: $main-font-stack;
   font-size: 150px;
   font-weight: 700;
   line-height: 140px;
