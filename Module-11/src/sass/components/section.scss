@@ -1,6 +1,6 @@
 .header__question {
 
-  @include font-settings ($size: 24px);
+  @include font-settings (24px , 400);
   font-family: 'Kaushan Script', 'Arial', sans-serif;
   line-height: 24px;
   text-align: center;
